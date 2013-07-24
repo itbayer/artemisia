@@ -1,17 +1,53 @@
-% Präsentation
-% Autor
-% Datum
+% Präsentationen mit praesento
+% itbayer
+% Juni 2013 -
 
 
-Erste Seite
-===========
+praesento?
+==========
 
-- Punkt 1
-- Punkt 2
-- Punkt 3
-- Punkt 4
+... ist ein kleines Framework mit dem man 
 
-Abschließender Satz der ersten Seite.
+- **schnell** 
+
+und 
+
+- **einfach** 
+
+eine Präsentation erstellen kann.
+
+Was bedeutet einfach
+====================
+
+Was bedeutet schnell
+====================
+
+Eckpunkte
+=========
+
+- Jeder Texteditor
+- Sprache pandocs markdown
+- (g)VIM Unterstützung
+
+
+
+Steuerung
+=========
+
+Die Steuerung mit  `make`.
+
+- make 
+	- make level1
+- make level2
+- make pdf
+- make clean
+
+Layout
+======
+
+- Allgemein - `all.css`
+- Level 1 - `l1.css`
+- level 2 - `l2.css`
 
 
 ###### Anmerkung{.anmerkung}
