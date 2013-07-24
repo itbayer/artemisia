@@ -1,0 +1,25 @@
+
+
+/** Anmerkungen im Text
+ *
+ * Texte die mit der Überschriftserweiterung {.anmerkung)
+ * versehen werden, werden nicht dargestellt.
+ *
+ * Beispiel:
+ *
+ * ### Zusatzinfo{.anmerkung}
+ *
+ * Wichtig dabei ist dabei der pandoc Parameter
+ *   --section-divs
+ * verwendet wird.
+ * Dieser sorgt dafür, dass die Überschrift mit einem 
+ * div TAG umgeben wird.
+ *
+ * Verwendet werden darf diese Erweiterung natürlich nur
+ * bei den Überschriften unterhalb des
+ *   Siled Levels (--silide-level)
+ *
+ */
+.anmerkung {
+	display: none;
+}
