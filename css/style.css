@@ -18,7 +18,7 @@ div.slide.level1 {
 	background-image: url("level1.png");
 	background-position: right bottom;
 	background-repeat: no-repeat;
-	padding-right: 240px ;
+	padding-right: 250px ;
 	padding-left: 120px;
 	padding-top: 50px;
 }
@@ -33,6 +33,16 @@ div.level1 h1 {
 	margin-right: -180px;
 	padding-bottom: 1em;
 	font-size: 2em;
+}
+
+div.level1 h2 {
+	color: #555;
+	text-shadow: 4px 4px 4px #bbb;
+/*	text-align: center; */
+	margin-left: -50px;
+	margin-right: -180px;
+	padding-bottom: 0.2em;
+	font-size: 1.6em;
 }
 
 

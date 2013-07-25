@@ -3,24 +3,43 @@
 % Juni 2013 -
 
 
-praesento?
-==========
 
-... ist ein kleines Framework mit dem man 
+praesento ...
+=============
 
-- **schnell** 
+ist ein kleines Framework mit dem man 
+eine Präsentation im HTML Format erstellen kann.
 
-und 
 
-- **einfach** 
 
-eine Präsentation erstellen kann.
+praesento ist einfach weil ...
+=============================
 
-Was bedeutet einfach
-====================
+man nicht die Eigenheiten
+eines Programmes erlernen muss.
 
-Was bedeutet schnell
-====================
+- Texte schreiben
+- make
+
+Fertig.
+
+
+
+praesento ist portabel weil ...
+==============================
+
+für die Darstellung ein
+Internet Browser ausreicht.
+
+
+
+
+praesento ist kompakt weil ...
+==============================
+
+alle Teile der Präsentation im einer HTML
+Datei gespeichert werden. 
+
 
 Eckpunkte
 =========
@@ -37,17 +56,25 @@ Steuerung
 Die Steuerung mit  `make`.
 
 - make 
-	- make level1
-- make level2
+	- make start.html
 - make pdf
+	- make start.pdf
 - make clean
 
 Layout
 ======
 
-- Allgemein - `all.css`
-- Level 1 - `l1.css`
-- level 2 - `l2.css`
+Das Layout von praesento wurde schlicht und einfach gehalten.
+
+Auf der Titelseite und in den einzelnen Folien 
+kann jeweils eine Hintergrund Grafik eingebunden werden.
+
+- `css/style.css`
+- `css/titlepage.png`
+	- `css/titlepage.xcf`
+- `css/level1.png`
+	- `css/level1.xcf`
+- `template/slidy.template`
 
 
 ###### Anmerkung{.anmerkung}
@@ -55,19 +82,14 @@ Layout
 Hier ist die Anmerkung der ersten Seite die mit einer Überschrift 6
 eingeleitet wurde.
 
-Präsentation Level 1
-====================
+Bilder 
+======
 
+FIXME
 
-
-Zweite Seite
-============
-
-* eins
-+ zwei
-- drei
-- vier
-+ fünf
+Alle Bilder die sich im 
+`fig` Verzeichnis befinden werden
+mittels ImageMagik angeasst.
 
 
 
@@ -76,12 +98,13 @@ Zweite Seite
 Bedienung des slidy Templates
 =============================
 
+Steuerung Seiten
+----------------
+
 Seite weiter
 :	* Maus Klick
 	* Leertaste
-
-Seite vor
-:	* Cursor rechts
+	* Cursor rechts
 	* Bild runter
 
 Seite zurück 
@@ -89,6 +112,9 @@ Seite zurück
 	* Bild hoch
 
 -----------------------------------
+
+Steuerung Darstellung
+---------------------
 
 Schriftgröße (b), (s), (<), (>)
 :	Die Schriftgröße wird automatisch angepasst, je nach Fenster Größe.
@@ -100,7 +126,13 @@ Schriftgröße (b), (s), (<), (>)
 Statuszeile ein -ausschalten (F)
 :	Mit der Taste F kann die Statuszeile ausgeschaltet werden.
 
+Vollbild Modus
+:	Der Vollbildmodus wird über den Browser bereitgestellt, Taste F11.
+
 ------------------------------------
+
+Steuerung Sonstigen
+-------------------
 
 Maus deaktivieren (K)
 :	Mit der Taste K wird die Maus zum weiter schalten einer Folie aus -eingeschaltet.
@@ -110,5 +142,8 @@ Inhaltsverzeichnis (C)
 :	Mit der Taste C kann das Inhaltsverzeichnis eingeblendet werden.
 	Mit jeder anderen Taste kann es wieder ausgeblendet werden.
 
-Vollbild Modus
-:	Der Vollbildmodus wird über den Browser bereitgestellt, Taste F11.
+
+&nbsp; {.titlepage}
+====================
+
+Besten Dank für Interesse
