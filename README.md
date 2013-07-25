@@ -12,5 +12,5 @@ Zum Einsatz kommen die Programme:
 - Optional pdflatex um die Präsentation als PDF zu erstellen
 
 
-
+Bild Hintergrund <http://wall.alphacoders.com/big.php?i=100164>
 

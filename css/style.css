@@ -1,15 +1,38 @@
+
 body {
-   background-color: #eee;
-   color: #777;
-   /* background-image: url(back.jpg); */
+	background-color: #fff;
+	color: #777;
 }
 
-h1 {
-	
+
+div.slide.titlepage{
+	background-image: url("titlepage.png");
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
+
+
+/* Hintergrund Bild der einzelnen Folien */
+div.slide.level1 {
+	background-image: url("level1.png");
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	padding-right: 240px ;
+	padding-left: 120px;
+	padding-top: 50px;
+}
+
+
+
+div.level1 h1 {
 	color: #444;
 	text-shadow: 4px 4px 4px #bbb;
 /*	text-align: center; */
-
+	margin-left: -50px;
+	margin-right: -180px;
+	padding-bottom: 1em;
+	font-size: 2em;
 }
 
 

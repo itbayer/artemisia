@@ -29,50 +29,27 @@
 #
 
 PANDOC = pandoc
-TEMPLATE = slidy.template
-
+TEMPLATE = template/slidy.template
+CSS = css/style.css
 
 default:
-	make -s start.l1.html
+	make -s start.html
 	
 
 # -----------------------------------------------------
 # Für die Entwicklung raus genommen
 #	--self-contained \
 #
-start.l1.html: start.md l1.css all.css
+start.html: start.md $(CSS)
 	$(PANDOC) -t slidy \
 	-s \
 	--template=$(TEMPLATE) \
 	--slide-level=1 \
 	--section-divs \
-	-c all.css \
-	-c l1.css \
-	-o start.l1.html \
+	-c $(CSS) \
+	-o start.html \
 	start.md
 
-level1:
-	make -s start.l1.html
-
-
-
-# -----------------------------------------------------
-# Für die Entwicklung raus genommen
-#	--self-contained \
-#
-start.l2.html: start.md all.css l2.css
-	$(PANDOC) -t slidy \
-	-s \
-	--template=$(TEMPLATE) \
-	--slide-level=2 \
-	--section-divs \
-	-c all.css \
-	-c l2.css \
-	-o start.l2.html \
-	start.md
-
-level2:
-	make -s start.l2.html
 
 
 

@@ -88,6 +88,8 @@ Seite zurück
 :	* Cursor links
 	* Bild hoch
 
+-----------------------------------
+
 Schriftgröße (b), (s), (<), (>)
 :	Die Schriftgröße wird automatisch angepasst, je nach Fenster Größe.
 	Sie kann aber auch manuell angepasst werden.
@@ -98,8 +100,11 @@ Schriftgröße (b), (s), (<), (>)
 Statuszeile ein -ausschalten (F)
 :	Mit der Taste F kann die Statuszeile ausgeschaltet werden.
 
+------------------------------------
+
 Maus deaktivieren (K)
 :	Mit der Taste K wird die Maus zum weiter schalten einer Folie aus -eingeschaltet.
+
 
 Inhaltsverzeichnis (C)
 :	Mit der Taste C kann das Inhaltsverzeichnis eingeblendet werden.
