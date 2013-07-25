@@ -16,3 +16,8 @@ Bild Hintergrund Startseite:
 
 <http://www.usageorge.com/Wallpapers/Computer/wallpaper/linux.jpg>
 
+
+Vorschau der Präsentation
+-------------------------
+
+<http://www.it-bayer.de/praesento/>
