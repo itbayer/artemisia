@@ -51,6 +51,20 @@ start.html: start.md $(CSS)
 	start.md
 
 
+# -----------------------------------------------------
+# Für die Entwicklung raus genommen
+#	--self-contained \
+#
+gh-pages: 
+	$(PANDOC) -t slidy \
+	-i \
+	-s \
+	--template=$(TEMPLATE) \
+	--slide-level=1 \
+	--section-divs \
+	-c $(CSS) \
+	-o start.html \
+	start.md
 
 
 # -----------------------------------------------------
