@@ -147,3 +147,11 @@ Inhaltsverzeichnis (C)
 ====================
 
 Besten Dank für Interesse
+
+Merker
+======
+
+
+Einzelen Datei von github.com runter laden
+
+	https://raw.github.com/itbayer/praesento/master/DATEI
