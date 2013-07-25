@@ -53,14 +53,13 @@ start.html: start.md $(CSS)
 
 # -----------------------------------------------------
 # Für die Entwicklung raus genommen
-#	--self-contained \
 #
 gh-pages: 
 	$(PANDOC) -t slidy \
-	-i \
 	-s \
 	--template=$(TEMPLATE) \
 	--slide-level=1 \
+	--self-contained \
 	--section-divs \
 	-c $(CSS) \
 	-o start.html \
