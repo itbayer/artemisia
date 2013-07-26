@@ -219,3 +219,12 @@ Einzelen Datei von github.com runter laden
 	https://raw.github.com/itbayer/artemisai/master/DATEI
 
 (g)VIM Syntax Unterstützung `pandoc` FIXME Link.
+
+Bilder mit dia
+	dia -s 700x -e diabild.png diafile.dia
+
+-s
+:	breite x höhe. wird einer weg gelassen wird der andere automatisch berechnet
+
+-e
+:	exportieren
