@@ -32,7 +32,7 @@ menu Artemisia.-----------------Dateien\ öffnen----------------- :
 menu Artemis&ia.Öffnen\ &Startseite<Tab>:e\ start\.md :tabnew<CR>:e start.md<CR><CR>
 
 menu Artemisia.-------------------show------------------------- :
-menu Artemis&ia.show\ Pr&äsentation<Tab>:make\ show :! x-www-browser start.html &
+menu Artemis&ia.show\ Pr&äsentation<Tab>:make\ show :! x-www-browser start.html &<CR><CR>
 
 
 menu Artemisia.-------------------make------------------------- :

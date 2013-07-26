@@ -10,6 +10,18 @@ artemisai ...
 ist ein kleines Framework mit dem man 
 eine Präsentation im HTML Format erstellen kann.
 
+-----------------------------------------------------
+
+Der Name Artemisia
+------------------
+
+Auszug aus der Seite [artemisia.de](http://artemisia.de).
+
+> Artemisia ist der Gattungsname des Beifußes. 
+Benannt nach der Göttin Artemis, der Heil und Leben spendenden Erdenmutter. Der Beifuß gilt von alters her als heilig. 
+Als 'Mariens Bettstroh' wird er mit der Mutter Gottes in Zusammenhang
+gebracht, die das Himmlische mit dem Irdischen verbindet.
+
 
 
 artemisai ist einfach weil ...
@@ -44,22 +56,31 @@ Datei gespeichert werden.
 Eckpunkte
 =========
 
-- Jeder Texteditor
-- Sprache pandocs markdown
-- (g)VIM Unterstützung
+- Erstellen
+	- jeder Texteditor
+	- Programme
+		- pandoc
+		- imagemagick (optional)
+		- (g)vim (optional)
+- Formatierung
+	- markdown (pandocs markdown)
+- Präsentieren
+	- HTML Browser
+
 
 
 
 Steuerung
 =========
 
-Die Steuerung mit  `make`.
+Die Steuerung von Artemisia übernimmt `make`.
 
 - make 
 	- make start.html
 - make pdf
 	- make start.pdf
 - make clean
+- make show
 
 Layout
 ======
@@ -76,6 +97,12 @@ kann jeweils eine Hintergrund Grafik eingebunden werden.
 	- `css/level1.xcf`
 - `template/slidy.template`
 
+---------------------------------
+
+Layout Erweiterung
+------------------
+
+Einfache Erweiterung durch CSS.
 
 ###### Anmerkung{.anmerkung}
 
@@ -89,7 +116,7 @@ FIXME
 
 Alle Bilder die sich im 
 `fig` Verzeichnis befinden werden
-mittels ImageMagik angeasst.
+mittels ImageMagick angepasst.
 
 
 
