@@ -111,8 +111,8 @@ online:
 	git commit -a -m "..."
 	git checkout gh-pages
 	git checkout master start.html
-	checkout master README.md
-	commit -a -m "..."
-	checkout master
+	git checkout master README.md
+	git commit -a -m "..."
+	git checkout master
 	git push
 
