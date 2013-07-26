@@ -24,6 +24,16 @@ itbayer
 <h1>artemisai ...</h1>
 <p>ist ein kleines Framework mit dem man eine Präsentation im HTML Format erstellen kann.</p>
 </div>
+<div class="slide section level1">
+
+<div id="der-name-artemisia" class="section level2">
+<h2>Der Name Artemisia</h2>
+<p>Auszug aus der Seite <a href="http://artemisia.de">artemisia.de</a>.</p>
+<blockquote>
+<p>Artemisia ist der Gattungsname des Beifußes. Benannt nach der Göttin Artemis, der Heil und Leben spendenden Erdenmutter. Der Beifuß gilt von alters her als heilig. Als 'Mariens Bettstroh' wird er mit der Mutter Gottes in Zusammenhang gebracht, die das Himmlische mit dem Irdischen verbindet.</p>
+</blockquote>
+</div>
+</div>
 <div id="artemisai-ist-einfach-weil-..." class="slide section level1">
 <h1>artemisai ist einfach weil ...</h1>
 <p>man nicht die Eigenheiten eines Programmes erlernen muss.</p>
@@ -44,14 +54,29 @@ itbayer
 <div id="eckpunkte" class="slide section level1">
 <h1>Eckpunkte</h1>
 <ul>
-<li>Jeder Texteditor</li>
-<li>Sprache pandocs markdown</li>
-<li>(g)VIM Unterstützung</li>
+<li>Erstellen
+<ul>
+<li>jeder Texteditor</li>
+<li>Programme
+<ul>
+<li>pandoc</li>
+<li>imagemagick (optional)</li>
+<li>(g)vim (optional)</li>
+</ul></li>
+</ul></li>
+<li>Formatierung
+<ul>
+<li>markdown (pandocs markdown)</li>
+</ul></li>
+<li>Präsentieren
+<ul>
+<li>HTML Browser</li>
+</ul></li>
 </ul>
 </div>
 <div id="steuerung" class="slide section level1">
 <h1>Steuerung</h1>
-<p>Die Steuerung mit <code>make</code>.</p>
+<p>Die Steuerung von Artemisia übernimmt <code>make</code>.</p>
 <ul>
 <li>make
 <ul>
@@ -62,6 +87,7 @@ itbayer
 <li>make start.pdf</li>
 </ul></li>
 <li>make clean</li>
+<li>make show</li>
 </ul>
 </div>
 <div id="layout" class="slide section level1">
@@ -80,15 +106,22 @@ itbayer
 </ul></li>
 <li><code>template/slidy.template</code></li>
 </ul>
+</div>
+<div class="slide section level1">
+
+<div id="layout-erweiterung" class="section level2">
+<h2>Layout Erweiterung</h2>
+<p>Einfache Erweiterung durch CSS.</p>
 <div id="anmerkung" class="section level6 anmerkung">
 <h6>Anmerkung</h6>
 <p>Hier ist die Anmerkung der ersten Seite die mit einer Überschrift 6 eingeleitet wurde.</p>
 </div>
 </div>
+</div>
 <div id="bilder" class="slide section level1">
 <h1>Bilder</h1>
 <p>FIXME</p>
-<p>Alle Bilder die sich im <code>fig</code> Verzeichnis befinden werden mittels ImageMagik angeasst.</p>
+<p>Alle Bilder die sich im <code>fig</code> Verzeichnis befinden werden mittels ImageMagick angepasst.</p>
 </div>
 <div id="bedienung-des-slidy-templates" class="slide section level1">
 <h1>Bedienung des slidy Templates</h1>
