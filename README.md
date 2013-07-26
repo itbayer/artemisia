@@ -1,4 +1,4 @@
-praesento
+artemisia
 =========
 
 Kleines Framework das mittels pandocs markdown eine HTML Präsentation
@@ -20,4 +20,4 @@ Bild Hintergrund Startseite:
 Vorschau der Präsentation
 -------------------------
 
-<http://www.it-bayer.de/praesento/>
+<http://www.it-bayer.de/artemisia/>

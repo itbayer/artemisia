@@ -1,10 +1,10 @@
-% Präsentationen mit praesento
+% Präsentationen mit artemisia
 % itbayer
 % Juni 2013 -
 
 
 
-praesento ...
+artemisai ...
 =============
 
 ist ein kleines Framework mit dem man 
@@ -12,7 +12,7 @@ eine Präsentation im HTML Format erstellen kann.
 
 
 
-praesento ist einfach weil ...
+artemisai ist einfach weil ...
 =============================
 
 man nicht die Eigenheiten
@@ -25,7 +25,7 @@ Fertig.
 
 
 
-praesento ist portabel weil ...
+artemisai ist portabel weil ...
 ==============================
 
 für die Darstellung ein
@@ -34,7 +34,7 @@ Internet Browser ausreicht.
 
 
 
-praesento ist kompakt weil ...
+artemisai ist kompakt weil ...
 ==============================
 
 alle Teile der Präsentation im einer HTML
@@ -64,7 +64,7 @@ Die Steuerung mit  `make`.
 Layout
 ======
 
-Das Layout von praesento wurde schlicht und einfach gehalten.
+Das Layout von artemisai wurde schlicht und einfach gehalten.
 
 Auf der Titelseite und in den einzelnen Folien 
 kann jeweils eine Hintergrund Grafik eingebunden werden.
@@ -154,4 +154,4 @@ Merker
 
 Einzelen Datei von github.com runter laden
 
-	https://raw.github.com/itbayer/praesento/master/DATEI
+	https://raw.github.com/itbayer/artemisai/master/DATEI

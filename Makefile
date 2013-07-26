@@ -38,13 +38,13 @@ default:
 
 # -----------------------------------------------------
 # Für die Entwicklung raus genommen
-#	--self-contained \
 #
 start.html: start.md $(CSS)
 	$(PANDOC) -t slidy \
 	-s \
 	--template=$(TEMPLATE) \
 	--slide-level=1 \
+	--self-contained \
 	--section-divs \
 	-c $(CSS) \
 	-o start.html \
@@ -52,14 +52,14 @@ start.html: start.md $(CSS)
 
 
 # -----------------------------------------------------
-# Für die Entwicklung raus genommen
+# Für die Entwicklung wurde der Parameter
+# --self-contained raus genommen
 #
-gh-pages: 
+dev: 
 	$(PANDOC) -t slidy \
 	-s \
 	--template=$(TEMPLATE) \
 	--slide-level=1 \
-	--self-contained \
 	--section-divs \
 	-c $(CSS) \
 	-o start.html \
