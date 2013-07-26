@@ -28,17 +28,17 @@ itbayer
 
 <div id="der-name-artemisia" class="section level2">
 <h2>Der Name Artemisia</h2>
-<p>Auszug aus der Seite <a href="http://artemisia.de">artemisia.de</a>.</p>
 <blockquote>
 <p>Artemisia ist der Gattungsname des Beifußes. Benannt nach der Göttin Artemis, der Heil und Leben spendenden Erdenmutter. Der Beifuß gilt von alters her als heilig. Als 'Mariens Bettstroh' wird er mit der Mutter Gottes in Zusammenhang gebracht, die das Himmlische mit dem Irdischen verbindet.</p>
 </blockquote>
+<p>Auszug aus der Seite <a href="http://artemisa.de">artemisa.de</a>.</p>
 </div>
 </div>
 <div id="artemisai-ist-einfach-weil-..." class="slide section level1">
 <h1>artemisai ist einfach weil ...</h1>
 <p>man nicht die Eigenheiten eines Programmes erlernen muss.</p>
 <ul>
-<li>Texte schreiben</li>
+<li>Texte schreiben im markdown Format</li>
 <li>make</li>
 </ul>
 <p>Fertig.</p>
@@ -123,10 +123,18 @@ itbayer
 <p>FIXME</p>
 <p>Alle Bilder die sich im <code>fig</code> Verzeichnis befinden werden mittels ImageMagick angepasst.</p>
 </div>
-<div id="bedienung-des-slidy-templates" class="slide section level1">
-<h1>Bedienung des slidy Templates</h1>
-<div id="steuerung-seiten" class="section level2">
-<h2>Steuerung Seiten</h2>
+<div id="bedienung-der-präsentatin" class="slide section level1">
+<h1>Bedienung der Präsentatin</h1>
+<dl>
+<dt>Vollbild Modus</dt>
+<dd>Der Vollbildmodus wird über den Browser bereitgestellt, Taste F11.
+</dd>
+</dl>
+</div>
+<div class="slide section level1">
+
+<div id="navigation" class="section level2">
+<h2>Navigation</h2>
 <dl>
 <dt>Seite weiter</dt>
 <dd><ul>
@@ -147,8 +155,8 @@ itbayer
 </div>
 <div class="slide section level1">
 
-<div id="steuerung-darstellung" class="section level2">
-<h2>Steuerung Darstellung</h2>
+<div id="darstellung" class="section level2">
+<h2>Darstellung</h2>
 <dl>
 <dt>Schriftgröße (b), (s), (&lt;), (&gt;)</dt>
 <dd><p>Die Schriftgröße wird automatisch angepasst, je nach Fenster Größe. Sie kann aber auch manuell angepasst werden.</p>
@@ -160,16 +168,13 @@ itbayer
 <dt>Statuszeile ein -ausschalten (F)</dt>
 <dd><p>Mit der Taste F kann die Statuszeile ausgeschaltet werden.</p>
 </dd>
-<dt>Vollbild Modus</dt>
-<dd><p>Der Vollbildmodus wird über den Browser bereitgestellt, Taste F11.</p>
-</dd>
 </dl>
 </div>
 </div>
 <div class="slide section level1">
 
-<div id="steuerung-sonstigen" class="section level2">
-<h2>Steuerung Sonstigen</h2>
+<div id="sonstigen" class="section level2">
+<h2>Sonstigen</h2>
 <dl>
 <dt>Maus deaktivieren (K)</dt>
 <dd><p>Mit der Taste K wird die Maus zum weiter schalten einer Folie aus -eingeschaltet.</p>
@@ -180,14 +185,46 @@ itbayer
 </dl>
 </div>
 </div>
-<div id="section" class="slide section level1 titlepage">
+<div id="anmerkung-in-der-präsentation" class="slide section level1">
+<h1>Anmerkung in der Präsentation</h1>
+<ul>
+<li>Anmerkungen werden mit <code>###{.anmerkung}</code> eingeleitet.</li>
+<li>Anmerkungen müssen am Ende einer Folie stehen</li>
+<li>Anmerkungen werden im HTML Format ausgeblendet</li>
+<li>Anmerkungen werden im PDF Format <u><strong>nicht</strong></u> ausgeblendet</li>
+</ul>
+</div>
+<div class="slide section level1">
+
+<div id="beispiel-anmerkung" class="section level2">
+<h2>Beispiel Anmerkung</h2>
+<pre><code> Überschrift
+ ===========
+
+ ###{.anmerkung}
+
+ Nicht vergessen zu erwähnen dass ...</code></pre>
+</div>
+</div>
+<div id="was-geht-nicht" class="slide section level1">
+<h1>Was geht nicht</h1>
+<ul>
+<li>Fusszeilen</li>
+</ul>
+<div id="section" class="section level3 anmerkung">
+<h3></h3>
+<p>Formatierung die in der Präsentation nicht umgesetzt, unterstützt werden.</p>
+</div>
+</div>
+<div id="section-1" class="slide section level1 titlepage">
 <h1> </h1>
 <p>Besten Dank für Interesse</p>
 </div>
-<div id="merker" class="slide section level1">
-<h1>Merker</h1>
+<div id="anhang" class="slide section level1">
+<h1>Anhang</h1>
 <p>Einzelen Datei von github.com runter laden</p>
 <pre><code>https://raw.github.com/itbayer/artemisai/master/DATEI</code></pre>
+<p>(g)VIM Syntax Unterstützung <code>pandoc</code> FIXME Link.</p>
 </div>
 </body>
 </html>

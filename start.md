@@ -15,13 +15,12 @@ eine Präsentation im HTML Format erstellen kann.
 Der Name Artemisia
 ------------------
 
-Auszug aus der Seite [artemisia.de](http://artemisia.de).
-
 > Artemisia ist der Gattungsname des Beifußes. 
 Benannt nach der Göttin Artemis, der Heil und Leben spendenden Erdenmutter. Der Beifuß gilt von alters her als heilig. 
 Als 'Mariens Bettstroh' wird er mit der Mutter Gottes in Zusammenhang
 gebracht, die das Himmlische mit dem Irdischen verbindet.
 
+Auszug aus der Seite [artemisa.de](http://artemisa.de).
 
 
 artemisai ist einfach weil ...
@@ -30,7 +29,7 @@ artemisai ist einfach weil ...
 man nicht die Eigenheiten
 eines Programmes erlernen muss.
 
-- Texte schreiben
+- Texte schreiben im markdown Format
 - make
 
 Fertig.
@@ -122,11 +121,16 @@ mittels ImageMagick angepasst.
 
 
 
-Bedienung des slidy Templates
+Bedienung der Präsentatin
 =============================
 
-Steuerung Seiten
-----------------
+Vollbild Modus
+:	Der Vollbildmodus wird über den Browser bereitgestellt, Taste F11.
+
+--------------------------------------
+
+Navigation
+----------
 
 Seite weiter
 :	* Maus Klick
@@ -140,7 +144,7 @@ Seite zurück
 
 -----------------------------------
 
-Steuerung Darstellung
+Darstellung
 ---------------------
 
 Schriftgröße (b), (s), (<), (>)
@@ -153,12 +157,10 @@ Schriftgröße (b), (s), (<), (>)
 Statuszeile ein -ausschalten (F)
 :	Mit der Taste F kann die Statuszeile ausgeschaltet werden.
 
-Vollbild Modus
-:	Der Vollbildmodus wird über den Browser bereitgestellt, Taste F11.
 
 ------------------------------------
 
-Steuerung Sonstigen
+Sonstigen
 -------------------
 
 Maus deaktivieren (K)
@@ -170,15 +172,50 @@ Inhaltsverzeichnis (C)
 	Mit jeder anderen Taste kann es wieder ausgeblendet werden.
 
 
+Anmerkung in der Präsentation
+=============================
+
+- Anmerkungen werden mit `###{.anmerkung}` eingeleitet.
+- Anmerkungen müssen am Ende einer Folie stehen
+- Anmerkungen werden im HTML Format ausgeblendet
+- Anmerkungen werden im PDF Format <u>**nicht**</u> ausgeblendet
+
+------------------------------------------
+
+Beispiel Anmerkung
+------------------
+
+~~~
+ Überschrift
+ ===========
+
+ ###{.anmerkung}
+
+ Nicht vergessen zu erwähnen dass ...
+~~~
+
+Was geht nicht
+==============
+
+- Fusszeilen
+
+###{.anmerkung}
+
+Formatierung die in der Präsentation nicht 
+umgesetzt, unterstützt werden.
+
+
+
 &nbsp; {.titlepage}
 ====================
 
 Besten Dank für Interesse
 
-Merker
+Anhang
 ======
-
 
 Einzelen Datei von github.com runter laden
 
 	https://raw.github.com/itbayer/artemisai/master/DATEI
+
+(g)VIM Syntax Unterstützung `pandoc` FIXME Link.

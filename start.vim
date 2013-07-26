@@ -32,7 +32,7 @@ menu Artemisia.-----------------Dateien\ öffnen----------------- :
 menu Artemis&ia.Öffnen\ &Startseite<Tab>:e\ start\.md :tabnew<CR>:e start.md<CR><CR>
 
 menu Artemisia.-------------------show------------------------- :
-menu Artemis&ia.show\ Pr&äsentation<Tab>:make\ show :! x-www-browser start.html &<CR><CR>
+menu Artemis&ia.show\ Pr&äsentation<Tab>:!\ x-www-browser\ start\.html\ & :! x-www-browser start.html &<CR><CR>
 
 
 menu Artemisia.-------------------make------------------------- :
@@ -44,8 +44,8 @@ menu Artemis&ia.make\ &online<Tab>:make\ online :make online<CR>
 menu Artemis&ia.make\ &clean<Tab>:make\ clean :make clean<CR>
 
 menu Artemisia.-----------------git--------------------------- :
-menu Artemis&ia.&Git.Änderungen\ &holen<Tab>:!git\ pull :!git pull<CR>
-menu Artemis&ia.&Git.Änderungen\ &anzeigen<Tab>:!git\ status :!git status<CR>
+menu Artemis&ia.Git\ Änderungen\ ho&len<Tab>:!git\ pull :!git pull<CR>
+menu Artemis&ia.Git\ Änderungen\ an&zeigen<Tab>:!git\ status :!git status<CR>
 
 
 " -----------------------------------------------------------
