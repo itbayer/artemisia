@@ -9,6 +9,7 @@ Zum Einsatz kommen die Programme:
 - pandoc
 - (g)vim
 - make
+- imagemagick
 - Optional pdflatex um die Präsentation als PDF zu erstellen
 
 
