@@ -103,3 +103,10 @@ clean:
 #	pandoc -t dzslides -s --section-divs --self-contained -c $(CSS) $< -o $@
 
 
+# ######################################################
+# Seite online stellen. 
+online:
+	git add .
+	git commit -a -m"...."
+	git push
+
