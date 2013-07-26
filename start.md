@@ -188,6 +188,12 @@ Beispiel Anmerkung
 ~~~
  Überschrift
  ===========
+ 
+ Hier ist der normale Text
+
+ - eins
+ - zwei
+ - drei
 
  ###{.anmerkung}
 
