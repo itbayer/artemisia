@@ -106,7 +106,13 @@ clean:
 # ######################################################
 # Seite online stellen. 
 online:
+	make 
 	git add .
-	git commit -a -m"...."
+	git commit -a -m "..."
+	git checkout gh-pages
+	git checkout master start.html
+	checkout master README.md
+	commit -a -m "..."
+	checkout master
 	git push
 
