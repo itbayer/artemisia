@@ -220,6 +220,18 @@ Beispiel Anmerkung
  Nicht vergessen zu erwähnen dass ...
 ~~~
 
+
+
+Artemisia mit gvim
+==================
+
+Über das Script `./start.sh` startet der Editor gvim mit einer
+Artemisia Menü Erweiterung.
+
+![Abbildung: Das Artemisia gvim Menü](gvim-menue.png)
+
+
+
 Was geht nicht
 ==============
 

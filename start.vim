@@ -37,9 +37,8 @@ menu Artemis&ia.show\ Pr&äsentation<Tab>:!\ x-www-browser\ start\.html\ & :! x-
 
 menu Artemisia.-------------------make------------------------- :
 menu Artemis&ia.make\ &html<Tab>:make\ start\.html :make start.html<CR><CR>
-
+menu Artemis&ia.make\ &pdf<Tab>:make\ start\.pdf :make start.pdf<CR><CR>
 menu Artemis&ia.make\ &dev<Tab>:make\ dev :make dev<CR><CR>
-menu Artemis&ia.make\ &fig<Tab>:make\ fig :make fig<CR>
 menu Artemis&ia.make\ &online<Tab>:make\ online :make online<CR>
 menu Artemis&ia.make\ &clean<Tab>:make\ clean :make clean<CR>
 
